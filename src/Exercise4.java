@@ -4,12 +4,14 @@ public class Exercise4 {
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
 
-        System.out.println("Enter the height and width of a rectangle in inches.");
+        System.out.println("Enter the height of a rectangle in inches.");
         float Height = in.nextFloat();
+        System.out.println("Enter the width of a rectangle in inches.");
         float Width = in.nextFloat();
-        double squareMillimeters = ((Height * Width) * 645.16);
+        double perimeter = ((Height * 2) + (Width * 2));
+        double perimeterInCentimeters = (perimeter * 2.54);
 
 
-        System.out.println(squareMillimeters + " square millimeters");
+        System.out.println(perimeterInCentimeters + " centimeters");
     }
 }
