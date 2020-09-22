@@ -12,6 +12,9 @@ public class Exercise4 {
         double perimeterInCentimeters = (perimeter * 2.54);
 
 
-        System.out.println(perimeterInCentimeters + " centimeters");
+        System.out.printf("%,.2f", perimeterInCentimeters);
+        System.out.print(" centimeters");
     }
 }
+
+//Done

@@ -10,8 +10,9 @@ public class Exercise3 {
         float Width = in.nextFloat();
         double squareMillimeters = ((Height * Width) * 645.16);
 
-        System.out.printf("%.2f", squareMillimeters);
+        System.out.printf("%,.2f", squareMillimeters);
+        System.out.print(" square millimeters");
     }
 }
 
-//Format
+//Done

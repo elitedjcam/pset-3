@@ -5,16 +5,24 @@ public class Exercise6 {
         Scanner in = new Scanner(System.in);
 
         System.out.println("Enter your hourly wage.");
-        float Monday = in.nextFloat();
-        float Tuesday = in.nextFloat();
-        float Homework3 = in.nextFloat();
+        double Wage = in.nextDouble();
         System.out.println("Enter your hours from Monday to Sunday.");
-        float Quiz1 = in.nextFloat();
-        float Quiz2 = in.nextFloat();
+        double Monday = in.nextDouble();
+        double Tuesday = in.nextDouble();
+        double Wednesday = in.nextDouble();
+        double Thursday = in.nextDouble();
+        double Friday = in.nextDouble();
+        double Saturday = in.nextDouble();
+        double Sunday = in.nextDouble();
 
+        double totalHours = (Monday+Tuesday+Wednesday+Thursday+Friday+Saturday+Sunday);
 
+        double paycheck = (totalHours * Wage);
 
-
+        System.out.print("$");
+        System.out.printf("%,.2f", paycheck);
 
     }
 }
+
+//Done

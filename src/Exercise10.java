@@ -9,12 +9,11 @@ public class Exercise10 {
         double Celsius = (((Fahrenheit - 32) * 5) / 9);
         double Kelvin = ((((Fahrenheit - 32) * 5) / 9) + 273.15);
 
-
-        System.out.printf("%,2f", Celsius);
-        System.out.printf("%,2f", Kelvin);
+        System.out.print("Celsius: ");
+        System.out.printf("%,.2f", Celsius);
+        System.out.print("\nKelvin: ");
+        System.out.printf("%,.2f", Kelvin);
     }
 }
 
-/*Fahrenheit to Celsius/kelvin
-Format with commas and two decimal places
- */
+//Done
