@@ -20,7 +20,20 @@ public class Exercise5 {
 
         double TotalGrade = (HomeworkGrade+QuizGrade+TestGrade);
 
-        System.out.printf("%.2f", TotalGrade);
+        System.out.print("Homework 1: ");
+        System.out.printf("%,.2f", Homework1);
+        System.out.print("\nHomework 2: ");
+        System.out.printf("%,.2f", Homework2);
+        System.out.print("\nHomework 3: ");
+        System.out.printf("%,.2f", Homework3);
+        System.out.print("\nQuiz 1: ");
+        System.out.printf("%,.2f", Quiz1);
+        System.out.print("\nQuiz 2: ");
+        System.out.printf("%,.2f", Quiz2);
+        System.out.print("\nTest 1: ");
+        System.out.printf("%,.2f", Test1);
+        System.out.print("\n");
+        System.out.printf("\n%.2f", TotalGrade);
         System.out.print("%");
 
     }

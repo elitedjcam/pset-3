@@ -11,8 +11,11 @@ public class Exercise4 {
         double perimeter = ((Height * 2) + (Width * 2));
         double perimeterInCentimeters = (perimeter * 2.54);
 
-
-        System.out.printf("%,.2f", perimeterInCentimeters);
+        System.out.print("Height: ");
+        System.out.printf("%,.2f", Height);
+        System.out.print("\nWidth: ");
+        System.out.printf("%,.2f", Width);
+        System.out.printf("\n%,.2f", perimeterInCentimeters);
         System.out.print(" centimeters");
     }
 }
